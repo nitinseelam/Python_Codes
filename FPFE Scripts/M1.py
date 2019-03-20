@@ -188,7 +188,7 @@ WHERE
 	AND t.Name NOT IN ('Test Project','Cash')
 	AND FP.name IN ('kinaole_lease', 'kinaole_ppa', 'sunfinco_lease', 'sunfinco_ppa')
 """)
-    queryb = unicode(query,'utf-8')
+    query = unicode(query,'utf-8')
     return query
     
 def M1SubPath(usage):
